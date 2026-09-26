@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>redhat.db</title>
+<style>
+  body { margin: 0; font: 14px/1.45 -apple-system, BlinkMacSystemFont, sans-serif; color: #1c1c1c; background: #fafafa; }
+  header { padding: 16px 20px 0; }
+  h1 { margin: 0 0 4px; font-size: 18px; font-weight: 650; }
+  .sub { margin: 0 0 12px; color: #666; }
+  .bar { display: flex; gap: 8px; align-items: center; padding: 0 20px 12px; flex-wrap: wrap; }
+  button { border: 1px solid #ccc; background: #fff; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+  button.active { background: #1c1c1c; color: #fff; border-color: #1c1c1c; }
+  input { flex: 1; min-width: 180px; border: 1px solid #ccc; border-radius: 6px; padding: 7px 10px; font: inherit; }
+  .wrap { padding: 0 20px 24px; overflow: auto; max-height: calc(100vh - 110px); }
+  table { border-collapse: collapse; width: 100%; background: #fff; }
+  th, td { border-bottom: 1px solid #e6e6e6; text-align: left; padding: 7px 8px; vertical-align: top; }
+  th { position: sticky; top: 0; background: #f3f3f3; font-weight: 600; white-space: nowrap; }
+  td { max-width: 420px; overflow-wrap: anywhere; }
+  a { color: #0b57d0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .empty { padding: 24px; color: #666; }
+</style>
+</head>
+<body>
+<header>
+  <h1>redhat.db</h1>
+  <p class="sub" id="status">Loading…</p>
+</header>
+<div class="bar">
+  <button data-table="repos" class="active">Repos</button>
+  <button data-table="users">Users</button>
+  <button data-table="contributions">Contributions</button>
+  <input id="q" type="search" placeholder="Filter this table">
+</div>
+<div class="wrap">
+  <table>
+    <thead id="head"></thead>
+    <tbody id="body"></tbody>
+  </table>
+  <p class="empty" id="empty" hidden>No rows match.</p>
+</div>
+<script>
+const COLUMNS = {
+  repos: ["full_name", "org", "language", "stars", "description", "topics", "langs", "done"],
+  users: ["login", "name", "company", "location", "bio", "blog", "email", "html_url"],
+  contributions: ["login", "repo", "n"]
+};
+
+const data = {};
+let table = "repos";
+
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[ch]));
+}
+
+function cell(row, column) {
+  const value = row[column];
+  if (value == null || value === "") return "";
+  if (table === "repos" && column === "full_name") {
+    return `<a href="https://github.com/${esc(value)}" target="_blank" rel="noreferrer">${esc(value)}</a>`;
+  }
+  if (table === "users" && column === "login") {
+    const href = row.html_url || `https://github.com/${value}`;
+    return `<a href="${esc(href)}" target="_blank" rel="noreferrer">${esc(value)}</a>`;
+  }
+  if (column === "html_url" || column === "blog") {
+    const href = String(value).startsWith("http") ? value : `https://${value}`;
+    return `<a href="${esc(href)}" target="_blank" rel="noreferrer">${esc(value)}</a>`;
+  }
+  if (column === "email") {
+    return `<a href="mailto:${esc(value)}">${esc(value)}</a>`;
+  }
+  return esc(value);
+}
+
+function render() {
+  const columns = COLUMNS[table];
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const rows = (data[table] || []).filter((row) => {
+    if (!q) return true;
+    return columns.some((column) => String(row[column] ?? "").toLowerCase().includes(q));
+  });
+  document.getElementById("head").innerHTML =
+    "<tr>" + columns.map((column) => `<th>${esc(column)}</th>`).join("") + "</tr>";
+  document.getElementById("body").innerHTML = rows.map((row) =>
+    "<tr>" + columns.map((column) => `<td>${cell(row, column)}</td>`).join("") + "</tr>"
+  ).join("");
+  document.getElementById("empty").hidden = rows.length > 0;
+  const total = (data[table] || []).length;
+  document.getElementById("status").textContent =
+    `${rows.length} of ${total} ${table}`;
+}
+
+document.querySelectorAll("button[data-table]").forEach((button) => {
+  button.addEventListener("click", () => {
+    table = button.dataset.table;
+    document.querySelectorAll("button[data-table]").forEach((el) => {
+      el.classList.toggle("active", el === button);
+    });
+    render();
+  });
+});
+document.getElementById("q").addEventListener("input", render);
+
+fetch("/api")
+  .then((response) => {
+    if (!response.ok) throw new Error("failed to load /api");
+    return response.json();
+  })
+  .then((payload) => {
+    Object.assign(data, payload);
+    render();
+  })
+  .catch((error) => {
+    document.getElementById("status").textContent = error.message;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>boston_people.csv</title>
+<style>
+  body { margin: 0; font: 14px/1.45 -apple-system, BlinkMacSystemFont, sans-serif; color: #1c1c1c; background: #fafafa; }
+  header { padding: 16px 20px 0; }
+  h1 { margin: 0 0 4px; font-size: 18px; font-weight: 650; }
+  .sub { margin: 0 0 12px; color: #666; }
+  .bar { display: flex; gap: 8px; align-items: center; padding: 0 20px 12px; }
+  input { flex: 1; min-width: 180px; border: 1px solid #ccc; border-radius: 6px; padding: 7px 10px; font: inherit; }
+  .wrap { padding: 0 20px 24px; overflow: auto; max-height: calc(100vh - 110px); }
+  table { border-collapse: collapse; width: 100%; background: #fff; }
+  th, td { border-bottom: 1px solid #e6e6e6; text-align: left; padding: 7px 8px; vertical-align: top; }
+  th { position: sticky; top: 0; background: #f3f3f3; font-weight: 600; white-space: nowrap; cursor: pointer; }
+  td { max-width: 420px; overflow-wrap: anywhere; white-space: pre-wrap; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  a { color: #0b57d0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .empty { padding: 24px; color: #666; }
+</style>
+</head>
+<body>
+<header>
+  <h1>boston_people.csv</h1>
+  <p class="sub" id="status">Loading…</p>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="Filter">
+</div>
+<div class="wrap">
+  <table>
+    <thead id="head"></thead>
+    <tbody id="body"></tbody>
+  </table>
+  <p class="empty" id="empty" hidden>No rows match.</p>
+</div>
+<script>
+const COLUMNS = ["login", "name", "company", "location", "bio", "email", "blog", "says_red_hat", "red_hat_repos", "commits"];
+const NUMERIC = new Set(["red_hat_repos", "commits"]);
+let rows = [];
+let sortKey = "commits";
+let sortDir = -1;
+
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[ch]));
+}
+
+function cell(row, column) {
+  const value = row[column];
+  if (value == null || value === "") return "";
+  if (column === "login") {
+    const href = row.url || `https://github.com/${value}`;
+    return `<a href="${esc(href)}" target="_blank" rel="noreferrer">${esc(value)}</a>`;
+  }
+  if (column === "blog") {
+    const href = String(value).startsWith("http") ? value : `https://${value}`;
+    return `<a href="${esc(href)}" target="_blank" rel="noreferrer">${esc(value)}</a>`;
+  }
+  if (column === "email") return `<a href="mailto:${esc(value)}">${esc(value)}</a>`;
+  return esc(value);
+}
+
+function compare(a, b) {
+  const av = a[sortKey] ?? "";
+  const bv = b[sortKey] ?? "";
+  if (NUMERIC.has(sortKey)) return (Number(av) - Number(bv)) * sortDir;
+  return String(av).localeCompare(String(bv), undefined, { sensitivity: "base" }) * sortDir;
+}
+
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const shown = rows.filter((row) => {
+    if (!q) return true;
+    return COLUMNS.some((column) => String(row[column] ?? "").toLowerCase().includes(q));
+  }).sort(compare);
+  document.getElementById("head").innerHTML = "<tr>" + COLUMNS.map((column) => {
+    const mark = column === sortKey ? (sortDir < 0 ? " ↓" : " ↑") : "";
+    const cls = NUMERIC.has(column) ? " class=\"num\"" : "";
+    return `<th${cls} data-col="${esc(column)}">${esc(column)}${mark}</th>`;
+  }).join("") + "</tr>";
+  document.getElementById("body").innerHTML = shown.map((row) =>
+    "<tr>" + COLUMNS.map((column) => {
+      const cls = NUMERIC.has(column) ? " class=\"num\"" : "";
+      return `<td${cls}>${cell(row, column)}</td>`;
+    }).join("") + "</tr>"
+  ).join("");
+  document.getElementById("empty").hidden = shown.length > 0;
+  document.getElementById("status").textContent = `${shown.length} of ${rows.length} people`;
+  document.querySelectorAll("th[data-col]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const column = th.dataset.col;
+      sortDir = column === sortKey ? -sortDir : (NUMERIC.has(column) ? -1 : 1);
+      sortKey = column;
+      render();
+    });
+  });
+}
+
+document.getElementById("q").addEventListener("input", render);
+
+fetch("/api")
+  .then((response) => {
+    if (!response.ok) throw new Error("failed to load /api");
+    return response.json();
+  })
+  .then((payload) => {
+    rows = payload;
+    render();
+  })
+  .catch((error) => {
+    document.getElementById("status").textContent = error.message;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+login,name,company,location,bio,email,blog,url,says_red_hat,red_hat_repos,commits
+patriot1burke,Bill Burke,Red Hat,Massachusetts,,,http://bill.burkecentral.com,https://github.com/patriot1burke,True,7,3087
+samccann,Sandra McCann,Red Hat,"MA, USA",,samccann@redhat.com,,https://github.com/samccann,True,15,870
+patrickdillon,Patrick Dillon,Red Hat,"Boston, MA",,pdd@redhat.com,,https://github.com/patrickdillon,True,3,688
+mhenriks,Michael Henriksen,Red Hat,"Boston, MA",,henriksen.mike@gmail.com,,https://github.com/mhenriks,True,12,610
+stbenjam,Stephen Benjamin,Red Hat,"Massachusetts, USA",,stephen@redhat.com,http://bitbin.de/,https://github.com/stbenjam,True,10,528
+maxwelldb,Max Bridges,Red Hat,Boston,"Senior Technical Writer, OpenShift",,,https://github.com/maxwelldb,True,1,516
+dlabaj,Donald Labaj,Red Hat,MA,,dlabaj@redhat.com,,https://github.com/dlabaj,True,14,498
+dtaylor113,Dave Taylor,Red Hat,"Westford, MA",,dtaylor@redhat.com,,https://github.com/dtaylor113,True,4,498
+harshad16,Harshad Reddy Nalla,Red Hat Inc.,Boston,OpenShift AI engineer · Kubeflow Notebook 2.0 & Workbenches · Upstream contributor · Turning ML workspaces from Dev Preview to GA.,harshadreddy16@gmail.com,https://harshad16.github.io,https://github.com/harshad16,True,8,454
+cgwalters,Colin Walters,"Red Hat, Inc.","MA, USA","Software engineer at @RedHatOfficial
+
+",walters@verbum.org,https://blog.verbum.org,https://github.com/cgwalters,True,18,406
+nathan-weinberg,Nathan Weinberg,Red Hat,Boston,"Senior Software Engineer @RedHatOfficial //
+
+Labs Volunteer @transitmatters ",,https://nathanweinberg.me/,https://github.com/nathan-weinberg,True,8,391
+anik120,Anik ,Red Hat,Boston,Built Cloud for 7 years. Now building AI ,,,https://github.com/anik120,True,12,384
+jcaianirh,Joseph Caiani,Red Hat,"Boston, MA",,,,https://github.com/jcaianirh,True,3,337
+bburt-rh,Brian Burt,@redhat-documentation ,"Boston area, MA",Principal Technical Writer at Red Hat,,,https://github.com/bburt-rh,True,1,320
+dougsland,Douglas Landgraf,Red Hat,Boston,Changing the world via open source!,dougsland@gmail.com,https://github.com/thekubeworld,https://github.com/dougsland,True,4,312
+danieloh30,Daniel Oh,IBM,"Boston, MA","Java Champion, CNCF Ambassador & TAG DevEX Co-Chair, AAIF Ambassador, Microsoft MVP, Developer Advocate, Technical Marketing, Keynote Speaker, Published Author",doh@redhat.com,bit.ly/danielohtv,https://github.com/danieloh30,True,2,311
+mansikulkarni96,Mansi Kulkarni,Red Hat,Boston,Senior Software Engineer at Red Hat,mankulka@redhat.com,,https://github.com/mansikulkarni96,True,3,303
+kenfinnigan,Ken Finnigan,,"Boston, MA","Open source engineer, observability, @open-telemetry, author, amateur genealogist. Former @ Red Hat.",,https://www.kenfinnigan.me,https://github.com/kenfinnigan,True,6,290
+mturley,Mike Turley,Red Hat,"Lowell, MA","Senior UX developer at Red Hat, bassist, gamer, skier. Working on the @opendatahub-io Dashboard.",mike.turley@alum.cs.umass.edu,miketurley.com,https://github.com/mturley,True,6,260
+kelbrown20,Kelly Brown,Red Hat ,"Boston, MA",,,,https://github.com/kelbrown20,True,4,238
+saifshaikh48,Mohammad Saif Shaikh,Red Hat --> Tesla,Boston --> Austin,,saifshaikh48@gmail.com,,https://github.com/saifshaikh48,True,1,206
+jwendell,Jonh Wendell,Red Hat,"Boston, MA, USA",Software Engineer at Red Hat,jwendell@redhat.com,https://jwendell.dev,https://github.com/jwendell,True,4,195
+tiyiprh,Tina Tien,,"Boston, MA",UX Designer @ Red Hat,,,https://github.com/tiyiprh,True,2,174
+shivchander,Shiv,Red Hat. IBM Research. MIT-IBM,Boston,Experiments with Machine Learning and Computational Intelligence and recently Language Models,shivchander.s30@gmail.com,,https://github.com/shivchander,True,2,167
+katieperry4,Katelynn Perry,Red Hat,Boston,Hi I'm Katie! Welcome to my GitHub!,,www.katelynnperry.com,https://github.com/katieperry4,True,1,162
+jordigilh,Jordi Gil,Red Hat,Greater Boston Area,,jgil@redhat.com,,https://github.com/jordigilh,True,14,158
+ishitasequeira,Ishita Sequeira,Red Hat,Boston, Software Engineer,,,https://github.com/ishitasequeira,True,8,157
+alinaryan,Alina Ryan,Red Hat,"Boston, MA",Software Engineer at Red Hat working on Data Processing solutions on the Agentic AI Eng Tool team.,,,https://github.com/alinaryan,True,5,156
+gx-ai-architect,GX Xu,Red Hat,Boston,"Engineer & Scientist
+",,,https://github.com/gx-ai-architect,True,2,152
+sadasu,Sandhya Dasu,Red Hat,"Boston, MA",OpenShift Engineer @ Red Hat,sdasu@redhat.com,,https://github.com/sadasu,True,1,148
+nalind,Nalin Dahyabhai,Red Hat,"Greater Boston, Massachusetts, USA","Fixing some bugs, writing other bugs.",nalin@redhat.com,,https://github.com/nalind,True,6,146
+rh-tokeefe,Tim O'Keefe,Red Hat,Massachusetts,,,,https://github.com/rh-tokeefe,True,2,138
+ddonahue007,Doug Donahue,Red Hat,Westford MA,,,,https://github.com/ddonahue007,True,8,137
+hguerrero,Hugo Guerrero,Solo.io | Ex Kong | Ex Red Hat | Arkingsoft,Massachusetts,"AI Architect / Developer Advocate | Agentic AI, APIs & Cloud Native | Open Source",,https://theagenticarch.com,https://github.com/hguerrero,True,2,111
+prb112,Paul Bastide,Red Hat,Massachusetts,"IBMer and Red Hat Partner Engineer
+
+@IBM ",paul@bastide.org,https://bastide.org,https://github.com/prb112,True,5,106
+wtam2018,William Tam,Red Hat,"Boston, MA",,wtam@redhat.com,,https://github.com/wtam2018,True,1,103
+jaypoulz,Jeremy Poulin,Red Hat,"Pepperell, MA",":dragon_face: @openshift developer, :game_die: TTRPG enthusiast, :black_cat: loves cats",jpoulin@redhat.com,linkedin.com/in/jaypoulz,https://github.com/jaypoulz,True,6,96
+nananosirova,Nana Nosirova,Red Hat,"Boston, MA",,,,https://github.com/nananosirova,True,2,89
+astoycos,Andrew Stoycos,Red Hat,Boston MA,"Software Engineer interested in all things cloud
+",astoycos@gmail.com,www.linkedin.com/in/andrew-stoycos,https://github.com/astoycos,True,2,87
+srtanish1992,Anish Surti,Red Hat,"Boston, MA","Quick learner, Strong Analytical ability, Flexible and Adaptable to new technology.",,,https://github.com/srtanish1992,True,1,82
+dsanatar,Danny Sanatar,Red Hat,"Boston, MA",,dsanatar@redhat.com,,https://github.com/dsanatar,True,8,80
+zkayyali812,Zack Kayyali,Red Hat,Boston,Software Engineer @ Red Hat,zkayyali812@gmail.com,https://rover.redhat.com/people/profile/zkayyali,https://github.com/zkayyali812,True,9,75
+mtchoum1,Moryan Tchoumi Noukoua,Red Hat,"Boston, MA","Driven by curiosity, I constantly seek to push the boundaries of what's possible, exploring new technologies to create real-world solutions",mtchoumi@redhat.com,,https://github.com/mtchoum1,True,2,74
+akhil-rane,Akhil Rane,Red Hat,Boston,Distributed Systems Enthusiast @RedHatOfficial,arane@redhat.com,,https://github.com/akhil-rane,True,3,72
+pecameron,Phil Cameron,Red Hat,"Westford, MA",,pcameron@redhat.com,,https://github.com/pecameron,True,1,72
+AdamJ,Adam J,@SwitchbackInc,MA,Lead Designer @ComponentAssemblySystems | previously @AWS @RedHatOfficial | @patternfly contributor | @Product-Designs ,adamjolicoeur@protonmail.com,https://www.adamjolicoeur.com,https://github.com/AdamJ,True,5,70
+cdoern,Charlie Doern,Red Hat,Boston,Senior Software Engineer at Red Hat working on Red Hat AI,cdoern@redhat.com,,https://github.com/cdoern,True,7,70
+haripate,Harita Patel,Red Hat,"Westford, MA",A Curious Software Engineer,,,https://github.com/haripate,True,1,70
+bmahabirbu,Brian M,Red Hat,Boston MA,Always finishes code,,,https://github.com/bmahabirbu,True,2,69
+stacymcauliffe,Stacy McAuliffe,Red Hat,"Boston, MA",,,,https://github.com/stacymcauliffe,True,3,51
+jianrongzhang89,Jianrong Zhang,Red Hat,"Westford, MA",,jianrzha@redhat.com,,https://github.com/jianrongzhang89,True,1,49
+svetsa-rh,Sharada Vetsa,Red Hat,"Westford, MA",,,,https://github.com/svetsa-rh,True,1,48
+bbrowning,Ben Browning,Red Hat,"Cambridge, MA",,,https://thinkingconcurrently.com/,https://github.com/bbrowning,True,4,42
+ederign,Eder Ignatowicz,Red Hat,"Ayer, MA","80% grind, 20% skill",ignatowicz@gmail.com,http://ederign.me,https://github.com/ederign,True,5,36
+abhi1092,Abhishek Bhandwaldar,"RedHat, IBM Research","Cambridge, MA","Engineering at Red Hat, IBM Research",,https://www.linkedin.com/in/abhishek-bhandwaldar-90ba5b7a,https://github.com/abhi1092,True,3,34
+mairin,Máirín Duffy,"Red Hat, Inc.","Boston, MA",Distinguished Engineer @RedHatOfficial. ,duffy@redhat.com,http://blog.linuxgrrl.com,https://github.com/mairin,True,3,34
+fynnsu,Fynn Schmitt-Ulms,Red Hat,"Cambridge, MA",Machine Learning Engineer @ Red Hat,fschmitt@redhat.com,www.fynnschmitt-ulms.ca,https://github.com/fynnsu,True,1,30
+KPostOffice,Kevin Postlethwait,Red Hat,Boston,,kpostlet@redhat.com,,https://github.com/KPostOffice,True,3,25
+bobbravo2,Bob Gregor,Red Hat,"Boston, MA","Engineering manager at Red Hat working on Open Data Hub / OpenShift AI. I build clearer engineering systems, architecture records, and delivery visibility.",,,https://github.com/bobbravo2,True,4,23
+sgallagher,Stephen Gallagher,"Red Hat, Inc","Westford, MA",,sgallagh@redhat.com,https://sgallagh.wordpress.com,https://github.com/sgallagher,True,3,21
+yashoza19,Yash Devan Oza,Red Hat,"Boston, USA",Senior Software Engineer - Operator Enablement at Red Hat,yoza@redhat.com,,https://github.com/yashoza19,True,3,18
+aweiteka,Aaron Weitekamp,Red Hat,"Boston, MA",Manager OpenShift SRE,aweiteka@redhat.com,,https://github.com/aweiteka,True,2,14
+cam-garrison,Cameron Garrison,Red Hat,Boston,,,,https://github.com/cam-garrison,True,2,14
+zhuje,Jenny Zhu ,Red Hat,"Boston, MA",Red Hat | Northeastern University ,jezhu@redhat.com,https://www.linkedin.com/in/jenny-zhu-74872089/,https://github.com/zhuje,True,1,13
+kybaker,Kyle Baker,Red Hat,"Westford, MA",,,,https://github.com/kybaker,True,2,12
+nicknevin,Nick Nevin,Red Hat,Boston,,,,https://github.com/nicknevin,True,1,12
+arortiz-rh,Armando Ortiz,,"United States, Massachusetts",Just an associate SWE,arortiz@redhat.com,,https://github.com/arortiz-rh,True,2,11
+jakecorrenti,Jake Correnti,Red Hat,"Greater Boston, Massachusetts","Software Engineer @ Red Hat 
+working on Virtualization",,,https://github.com/jakecorrenti,True,3,11
+CryptoRodeo,Bryan Ramos,Red Hat,"Boston, MA","“I’m not superstitious … but I am a little stitious.” — Michael Scott, “The Office”",,BryanRamos.xyz,https://github.com/CryptoRodeo,True,3,10
+cjcocokrisp,Christopher Coco,Red Hat,"Massachusetts, USA","forward, relentlessly ",chriscoco1205@gmail.com,https://www.cjcocokrisp.dev,https://github.com/cjcocokrisp,True,1,10
+mccv1r0,Michael C. Cambria,Red Hat,Boston,,mcambria@redhat.com,,https://github.com/mccv1r0,True,1,9
+crobinso,Cole Robinson,Red Hat,Boston Area,Virtualization developer at Red Hat,crobinso@redhat.com,https://blog.wikichoon.com,https://github.com/crobinso,True,2,8
+maryshak1996,Mary Shakshober,Red Hat,Boston,Sr. Interaction Designer (UXD) at Red Hat,mshaksho@redhat.com,https://maryshakshoberdesign.com/,https://github.com/maryshak1996,True,2,8
+thrasher-redhat,Rory Thrasher,Red Hat,"Westford, MA",,rthrashe@redhat.com,,https://github.com/thrasher-redhat,True,8,8
+AdlerFleurant,Adler Fleurant,Red Hat,"Boston Area, MA",,,,https://github.com/AdlerFleurant,True,2,6
+giofontana,Giovanni Fontana,Red Hat,"Westford, MA",,,,https://github.com/giofontana,True,2,6
+jimdaga,Jim D'Agostino,Red Hat,Massachusetts ,Principal SRE at RedHat working on managed @openshift,jdagosti@redhat.com,,https://github.com/jimdaga,True,1,6
+jnewsome97,Josh Newsome,Red Hat,"London, UK | Previous: Boston, US",,,,https://github.com/jnewsome97,True,1,6
+aaradhak,Aashish Radhakrishnan,Red Hat,Boston,Senior Software Quality Engineer,aaradhak@redhat.com,,https://github.com/aaradhak,True,2,5
+biswassri,Srijoni Biswas,@RedHatOfficial,"Boston, MA",Software Engineer at Red Hat | Northeastern University Alum,,,https://github.com/biswassri,True,1,5
+nlcwong,Natalie Wong,Red Hat,"Boston, MA",,,,https://github.com/nlcwong,True,2,5
+thisisatharva-rh,Atharva Kshirsagar,Red Hat,"Cambridge, MA",PyTorch Distributed @ RedHat ,,,https://github.com/thisisatharva-rh,True,1,5
+aakankshaduggal,Aakanksha Duggal,@RedHatOfficial ,"Boston, MA, USA",Principal Data Scientist at @RedHatOfficial ,aduggal@redhat.com,,https://github.com/aakankshaduggal,True,3,4
+ckhordiasma,Christopher Kodama,@RedHatOfficial,"Boston, MA, USA",,,xoid.net,https://github.com/ckhordiasma,True,3,4
+owtaylor,Owen Taylor,Red Hat,"Cambridge, MA USA","Contributing to open source since 1994. Senior Principal Software Engineer at Red Hat, currently working using AI for secure system management.",,http://fishsoup.net,https://github.com/owtaylor,True,3,4
+DirectedSoul1,DirectedSoul1,Red Hat Inc,"Westford, MA","Solutions Engineer , Openshift Team",shegde@redhat.com,,https://github.com/DirectedSoul1,True,1,3
+SujanaN08,Sujana Nethi,Red Hat,Boston,,,,https://github.com/SujanaN08,True,1,3
+Vedant-Deshpande,Vedant Deshpande,Red Hat,"Boston, MA","Data Scientist, Red Hat",,,https://github.com/Vedant-Deshpande,True,1,3
+akiselev1,Andrew Kiselev,@Red Hat,"Littleton, MA",,,https://www.linkedin.com/in/andrew-kiselev-752707/,https://github.com/akiselev1,True,1,3
+hmoghani,Hamid Moghani,Red Hat,"Boston, MA","Senior Software Engineer
+@RedHatOfficial",hmoghani@redhat.com,https://hamid.moghani.com/,https://github.com/hmoghani,True,1,3
+kevinhatchoua,Kevin Hatchoua,Red Hat,Massachusetts,,kevincedrik@gmail.com,,https://github.com/kevinhatchoua,True,1,3
+rranabha,Robin Ranabhat,Red Hat,Boston,,,,https://github.com/rranabha,True,1,3
+sefroberg,Scott Froberg,Red Hat,Massachusetts,,sfroberg@redhat.com,,https://github.com/sefroberg,True,1,3
+BumbleFeng,Feng Huang,Red Hat,"Westford, MA","Senior Site Reliability Engineer
+",fehuang@redhat.com,https://www.linkedin.com/in/feng-huang/,https://github.com/BumbleFeng,True,2,2
+dhshah13,Dharit Shah,Red Hat,Boston,ADLC @Red Hat,,,https://github.com/dhshah13,True,1,2
+rafael-azevedo,Rafael Azevedo,Red Hat,Boston MA,Senior Software Engineer and Functional Team Lead at Red Hat on the Openshift SRE Platform Team,razevedo@redhat.com,rafaelazevedo.me,https://github.com/rafael-azevedo,True,1,2
+tarun-etikala,Tarun Kumar Reddy Etikala,Red Hat,Boston,,,,https://github.com/tarun-etikala,True,1,2
+tiffanynolan,Tiffany Nolan,Red Hat,"Lowell, MA",,,,https://github.com/tiffanynolan,True,1,2
+PalmPalm7,Andy Xie,@redhat-et ,Boston,I want to live on Mars one day :),anxie@redhat.com,,https://github.com/PalmPalm7,True,1,1
+RobuRishabh,Rishabh Singh,Red Hat,"Boston, MA",Software Engineer @ Red Hat | Red Hat AI ,,https://roburishabh.com/,https://github.com/RobuRishabh,True,1,1
+adereis,Ademar Reis,Red Hat,Greater Boston Area,"Software Engineering Leader. Interested in system software, AI, science, theory of mind, and open source.",ademar@ademar.org,https://ademar.org,https://github.com/adereis,True,1,1
+fpjrh,Frank Jansen,@redhat,"West Boylston, MA","Sr. Eng Mgr in Red Hat AIPCC Ecosystems group; passionate about automation, performance and great teams",fjansen@redhat.com,,https://github.com/fpjrh,True,1,1
+katierik,kriker - Katie Riker,@RedHatOfficial,"Boston, MA",UX Designer @RedHat,,www.katieriker.com,https://github.com/katierik,True,1,1
+nbottari9,Nick Bottari,Red Hat,"Lowell, MA","Honors Computer Science Student @ UMass Lowell. President of @UMLCloudComputing.
+Intern @ Red Hat
+",nbottari9@gmail.com,,https://github.com/nbottari9,True,1,1
+nhoriguchi,Naoya Horiguchi,Red Hat,"Boston, MA",,,,https://github.com/nhoriguchi,True,1,1
+peterclauterbach,Peter Lauterbach,Red Hat,"Boston, MA",,peter.lauterbach@redhat.com,,https://github.com/peterclauterbach,True,1,1
+raghavendra-talur,Raghavendra Talur,Red Hat,"Westford, MA, USA",,raghavendra.talur@gmail.com,rtalur.com,https://github.com/raghavendra-talur,True,1,1
+ranakan19,Kanika Rana,Red Hat Inc,"Boston, MA, USA",,,,https://github.com/ranakan19,True,1,1
+robinnarsinghranabhat,Robin Narsingh Ranabhat,Red Hat,Boston,"Solving challenging problems, one at a time.",,,https://github.com/robinnarsinghranabhat,True,1,1
+smcgowan,Shelly McGowan,JBoss by Red Hat,"Westford, Massachusetts",,smcgowan@redhat.com,http://community.jboss.org/blogs/donnamishelly,https://github.com/smcgowan,True,1,1
+vathpela,Peter Jones,"Red Hat, Inc.","Cambridge, MA",,pjones@redhat.com,https://blog.uncooperative.org,https://github.com/vathpela,True,1,1
+phlogistonjohn,John Mulligan,,"MA, US",,,http://asynchrono.us/,https://github.com/phlogistonjohn,False,5,2310
+JStickler,J Stickler,Grafana Labs,"MA, USA","Technical Writer.  
+My main claim to open source fame is that I am the reason why, since 2019,  new GitHub repos include a ""documentation"" label by default.",,,https://github.com/JStickler,False,1,476
+kamoltat,Kamoltat (Junior) Sirivadhna,IBM,"Boston, MA","Software Engineer @ IBM
+",,https://www.linkedin.com/in/kamoltat-junior-sirivadhna-61958313b/,https://github.com/kamoltat,False,5,281
+dinhxuanvu,Vu Dinh,Stealth AI Startup,"Boston, MA","Software Engineer @ Stealth AI Startup
+Previously @fl97inc (Lila Sciences) @openshift @operator-framework @kcp-dev",,,https://github.com/dinhxuanvu,False,9,243
+tkashem,Abu Kashem,NVIDIA,"Lexington, MA",,itstohin@gmail.com,,https://github.com/tkashem,False,9,166
+damemi,Mike Dame,@odigos-io ,"Boston, MA","OpenTelemetry + Kubernetes maintainer
+
+It's all fun and games until someone git blames.       
+
+http://archive.is/UsYVz",mike@odigos.io,http://mikeda.me,https://github.com/damemi,False,4,153
+flavio-fernandes,Flavio Fernandes,,"Boston, MA",,,https://flaviof.com,https://github.com/flavio-fernandes,False,1,143
+rsun19,Robert Sun,,"Boston, MA",,,https://robertssun.me,https://github.com/rsun19,False,2,120
+xukai92,Kai Xu,,"Cambridge, MA",ML researcher who <3 cats,,xuk.ai,https://github.com/xukai92,False,4,112
+SamiSousa,Sami Shahin,,"Boston, Massachusetts",,ssshahin@bu.edu,,https://github.com/SamiSousa,False,1,85
+PratikMahajan,Pratik Mahajan,,"Boston, MA",,Pratik@mahajan.xyz,,https://github.com/PratikMahajan,False,2,77
+eshwarprasadS,Eshwar Prasad Sivaramakrishnan,,Boston,Building ML and AI Systems for the good of the world (and for some curiosity ^^),esivaram@usc.edu,,https://github.com/eshwarprasadS,False,2,55
+krishagarwal278,Krish Agarwal,,"Boston, MA",,krishagarwal278@gmail.com,,https://github.com/krishagarwal278,False,1,49
+porscheyin,Yin,,Massachusetts,,,,https://github.com/porscheyin,False,1,32
+jrenee42,Jill Pelavin,Aliro Quantum ,"Watertown, MA",,jillrenee42@gmail.com,,https://github.com/jrenee42,False,1,31
+serenamarie125,Serena Chechile,,"Uxbridge, MA",,serenamarie125@gmail.com,,https://github.com/serenamarie125,False,3,30
+GuilhermeCamposo,Guilherme Camposo,,"MA, USA",Let's make it work !,guilherme.camposo@me.com,,https://github.com/GuilhermeCamposo,False,1,27
+astorije,Jérémie Astori,"@Datadog, ex-@analogdevicesinc, ex-@CloudHealth by @vmware, ex-@w3c","Boston, MA, USA",,,https://jeremie.astori.fr,https://github.com/astorije,False,2,26
+jeking3,Jim King,@NVIDIA,"Westford, MA","""What I like is we're smart enough to invent AI, dumb enough to need it, and still so stupid we can't figure out if we did the right thing."" - Jerry Seinfeld",jking@apache.org,,https://github.com/jeking3,False,2,26
+mcodd,Matt Coddington,,"Boston, MA",,coddington@gmail.com,,https://github.com/mcodd,False,2,22
+markllama,Mark Lamourine,,"Billerica, MA US",,markllama@gmail.com,http://electron-swamp.blogspot.com,https://github.com/markllama,False,2,16
+weihanglo,Weihang Lo,@rust-lang @rust-tw,"Taiwan | Boston, MA, USA ",📦 Cargo worker at home,,https://weihanglo.tw,https://github.com/weihanglo,False,1,11
+suzannehillman,Suzanne Hillman,,"Waltham, MA","UX Designer who recently completed a 12 week project with the Fedora Project. Looking for full-time work, preferably with an open-source company.",,https://suzannehillman.com,https://github.com/suzannehillman,False,1,9
+jeffbyrnes,Jeff Byrnes,@athenahealth,"Somerville, MA","🎶 🎸 bassist 
+💻 ops engineering manager 
+🍸 cocktail enthusiast 
+🎮 video gamer 
+👔 snappy dresser ",,https://thejeffbyrnes.com/,https://github.com/jeffbyrnes,False,1,6
+rdebeasi,Ryan DeBeasi,,"Boston, MA",,hi@ryandebeasi.com,http://ryandebeasi.com,https://github.com/rdebeasi,False,1,4
+careyrp,Ryan Carey,Bose,"Framingham, MA",,,,https://github.com/careyrp,False,1,3
+pratyushasharma,Pratyusha Sharma,,"Cambridge, MA",MIT CSAIL,,https://pratyushasharma.github.io/,https://github.com/pratyushasharma,False,1,3
+robruma,Rob Ruma,Harvard University Information Technology,"Cambridge, Massachusetts",,,,https://github.com/robruma,False,1,3
+AyushAmbastha,,NVIDIA,"Boston, MA","Security @ NVIDIA | USC Alumni
+",ambastha.ayush@gmail.com,,https://github.com/AyushAmbastha,False,1,2
+Ibrahim-Haroon,Ibrahim Haroon,,"Boston, MA",CS @ UMass Lowell,,https://www.linkedin.com/in/ibrahimharoon/ ,https://github.com/Ibrahim-Haroon,False,1,2
+SaiHimaja,Himaja Chowdary,,Boston,Grad Student @ Northeastern | Open to opportunities| Books & Coffee <3,,,https://github.com/SaiHimaja,False,1,2
+cogumbreiro,Tiago Cogumbreiro,UMass Boston,"Boston, MA, USA","As a CS reseacher, my goal is to advance the foundations of parallel
+programming, by improving the quality assurance of languages and
+runtimes.",cogumbreiro@users.sf.net,http://cogumbreiro.github.io/,https://github.com/cogumbreiro,False,1,2
+ecda909,Eder Mazariegos,Blank Cut,"Boston, MA",I'm a Site Reliability Engineer who loves building tools that help make systems more reliable.,eder_mazariegos@blankcut.com,https://www.edermazariegos.com/,https://github.com/ecda909,False,1,2
+hellertime,Chris Heller,Ex DataDog,"Cambridge, MA",,hellertime@gmail.com,https://www.hellertime.com,https://github.com/hellertime,False,1,2
+jameslau,James Lau,,"Boston, MA",Front End Developer,,https://jameslau.com/,https://github.com/jameslau,False,1,2
+jtriley,Justin Riley,,"Boston, MA",,,https://nerc.mghpcc.org,https://github.com/jtriley,False,2,2
+Alphadelta14,Heather Lapointe,@MaterializeInc,"Massachusetts, USA","Ex-Chief Architect, Materialize",alpha@alphaservcomputing.solutions,,https://github.com/Alphadelta14,False,1,1
+Ben-Epstein,Ben Epstein,@GrottoAI ,"Boston, MA","Founder, CTO, GrottoAI | Tech Lead LLM @EvolutionIQ  | Founding Engineer @rungalileo | OSS @arcee-ai",ben.epstein97@gmail.com,https://www.linkedin.com/in/ben-epstein,https://github.com/Ben-Epstein,False,1,1
+Erouan50,Antoine Rouaze,@mirakl , Boston MA,SRE at Mirakl Inc.,antoine.rouaze@gmail.com,rouaze.org,https://github.com/Erouan50,False,1,1
+SUYASHKARMARKAR,SUYASH KARMARKAR,,"Westford, MA",,,,https://github.com/SUYASHKARMARKAR,False,1,1
+Yorisoft,Yelsin Sepulveda,,"Boston MA, USA","DevOps & Cloud Engineer | prev. AWS | GSoC'25 Contributor @KDE | Intern'21 @athenahealth | Fellow'20 @Hack-Diversity
+",Yelsinsepulveda@gmail.com,https://blog.yorisoft.dev/,https://github.com/Yorisoft,False,1,1
+abrooks,Aaron Brooks,,Boston area,,,,https://github.com/abrooks,False,1,1
+alexismonville,Alexis Monville,,Boston,,,http://alexis.monville.com,https://github.com/alexismonville,False,1,1
+btoll,,,Massachusetts,derp,ben@benjamintoll.com,https://benjamintoll.com,https://github.com/btoll,False,1,1
+chrisricci,Chris Ricci,@google,"Boston, MA",,chris.ricci82@gmail.com,,https://github.com/chrisricci,False,1,1
+edtbl76,Ed,,Massachusetts,https://emangini.com <-- You can find me here!,me@emangini.com,emangini.com,https://github.com/edtbl76,False,1,1
+frozencemetery,Robbie Harwood,a farm nearby,"Our Fair City, MA","I grow vegetables, and am available for systems programming work that doesn't make the world worse.",rharwood@pm.me,https://mivehind.net/about/,https://github.com/frozencemetery,False,1,1
+ishapuri,Isha Puri,"MIT, Harvard University","Cambridge, MA",ishapuri.github.io,ishapuri101@gmail.com,ishapuri.github.io,https://github.com/ishapuri,False,1,1
+jhanyu2019,Jinghan Yu,,"Boston, MA",,,,https://github.com/jhanyu2019,False,1,1
+jimparis,Jim Paris,,Boston,,,,https://github.com/jimparis,False,1,1
+malodie,malodie,athenahealth,Boston,"I write code sometimes and hope it's good.
+
+SRE by day, home automator by night.",,,https://github.com/malodie,False,1,1
+tiagobento,Tiago Bento,@IBM @apache,"Boston, MA",,,,https://github.com/tiagobento,False,1,1
+wwdillingham,Wes Dillingham,,"Ipswich, Massachusetts",,wes@wesdillingham.com,http://www.wesdillingham.com,https://github.com/wwdillingham,False,1,1
